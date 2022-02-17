@@ -28,7 +28,7 @@ export class PairPancake {
   private readonly tokenAmounts: [CurrencyAmount<Token>, CurrencyAmount<Token>]
 
   public static getAddress(tokenA: Token, tokenB: Token): string {
-    return computePairAddress({ factoryAddress: FACTORY_ADDRESS_PANCAKE, tokenA, tokenB })
+    return computePairAddressPancake({ factoryAddress: FACTORY_ADDRESS_PANCAKE, tokenA, tokenB })
   }
 
   public constructor(currencyAmountA: CurrencyAmount<Token>, tokenAmountB: CurrencyAmount<Token>) {
