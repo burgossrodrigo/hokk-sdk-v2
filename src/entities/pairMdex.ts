@@ -7,7 +7,7 @@ import { getCreate2Address } from '@ethersproject/address'
 import { FACTORY_ADDRESS_MDEX, INIT_CODE_HASH_MDEX, MINIMUM_LIQUIDITY, FIVE, _997, _1000, ONE, ZERO } from '../constants'
 import { InsufficientReservesError, InsufficientInputAmountError } from '../errors'
 
-export const computePairAddress = ({
+export const computePairAddressMdex = ({
   factoryAddress,
   tokenA,
   tokenB
