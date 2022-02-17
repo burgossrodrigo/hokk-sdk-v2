@@ -1,8 +1,8 @@
 {
-  "name": "@uniswap/v2-sdk",
+  "name": "@hokk/v2-sdk",
   "license": "MIT",
-  "version": "3.0.1",
-  "description": "🛠 An SDK for building applications on top of Uniswap V2",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of Hokkfi V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
